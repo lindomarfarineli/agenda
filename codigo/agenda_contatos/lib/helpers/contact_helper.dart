@@ -37,7 +37,7 @@ class ContactHelper {
 /// função que será executada uma vez para criar o banco
   Future<Database> initDb() async {
     final databasePath = await getDatabasesPath();
-    final path = join(databasePath, 'contact.db');
+    final path = join(databasePath, 'contacts.db');
 
     return await openDatabase(path, version: 1, onCreate: (Database db,
         int newerVersion) async{
@@ -98,7 +98,8 @@ class ContactHelper {
 /// ...retorna o total de contatos
   Future<int?> getNumber() async{
     Database dbContact = await db;
-    return Sqflite.firstIntValue(await dbContact.rawQuery("SELECT COUNT(*) FROM $contactTable"));
+    return Sqflite.firstIntValue(await dbContact.rawQuery("SELECT COUNT(*) FROM"
+        " $contactTable"));
   }
 
 /// apenas fecha o banco de dados
@@ -118,7 +119,9 @@ class Contact {
    String? phone;
    String? img;
 
-/// método para converter de map------------------------------------------------
+   Contact();
+
+// método para converter de map-------------------------------------------------
    Contact.fromMap(Map map){
      id = map[idColumn];
      name = map[nameColumn];
@@ -126,8 +129,8 @@ class Contact {
      phone = map[phoneColumn];
      img = map[imgColumn];
    }
-///-----------------------------------------------------------------------------
-/// método para converter para map----------------------------------------------
+//------------------------------------------------------------------------------
+//  método para converter para map----------------------------------------------
    Map<String, dynamic> toMap() {
      Map<String, dynamic> map = {
        nameColumn: name,
