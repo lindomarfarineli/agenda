@@ -11,7 +11,6 @@ class ContactPage extends StatefulWidget {
 
   /// construtor
   const ContactPage({this.contact, Key? key}) : super(key: key);
-  //const ContactPage(this.contact ,{Key? key}) : super(key: key);
 
   @override
   State<ContactPage> createState() => _ContactPageState();
@@ -86,14 +85,15 @@ class _ContactPageState extends State<ContactPage> {
             children: [
               GestureDetector(
                 child: Container(
-                  width: 140,
-                  height: 140,
+                  width: 150,
+                  height:150,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     image: DecorationImage(
                       image: _editedContact.img != null?
                       FileImage(File(_editedContact.img!)):
-                      const AssetImage('images/person.png') as ImageProvider
+                      const AssetImage('images/person.png') as ImageProvider,
+                        fit: BoxFit.cover
                     ),
                   ),
                 ),

@@ -6,15 +6,43 @@
 
 ​	Na pasta Outros haverá outros arquivos de pertinência do projeto, como por exemplo a imagem das telas e qualquer outra informação que seja relevante.
 
-​	Na data de 24/07 o projeto ainda está em desenvolvimento e ao final pretende-se obter um aplicativo que possa armazenar, listar, excluir e editar contatos, além de guardar imagens dos contatos e ainda realizar as ligações para os números do telefone dos contatos diretamente a partir da agenda.
+​	O projeto foi finalizado um aplicativo que possa armazenar, listar, excluir e editar contatos, além de guardar imagens dos contatos e ainda realizar as ligações para os números do telefone dos contatos diretamente a partir da agenda.
+
+​	Abaixo uma amostra de como ficaram as telas, primeiramente a tela inicial.
 
 
+
+<img src = "outros/img/telaInicial.jpeg" alt="**Image**" height="300" width="150" >
+
+
+
+
+
+Agora a alterando a posição da lista:
+
+<img src = "outros/img/alterandoPos.jpeg" alt="**Image**" height="300" width="150">
+
+
+
+O que ocorre ao clicar sobre um contato:
+
+<img src = "outros/img/clic.jpeg" alt="**Image**" height="300" width="150">
+
+E por fim, se desejar editar um contato:
+
+<img src = "outros/img/edit.jpeg" alt="**Image**" height="300" width="150">
+
+​	Caso o usuário queira, tocando em ligar, é aberta a interface do telefone ou o registro é excluído quando toca-se em "excluir".
+
+​	Obrigado por chegar até aqui!
 
 ​																	 **Lindomar Farineli**
 
  
 
+```css
 
+```
 
 
 
