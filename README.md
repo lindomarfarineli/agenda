@@ -12,7 +12,7 @@
 
 
 
-<img src = "outros/img/telaInicial.jpeg" alt="**Image**" style="zoom:25%" >
+<img src = "outros/img/telaInicial.jpeg"  >
 
 
 
@@ -20,7 +20,7 @@
 
 Agora a alterando a posição da lista:
 
-<img src = "outros/img/alterandoPos.jpeg" alt="**Image**" style="zoom:25%">
+<img src = "outros/img/alterandoPos.jpeg" >
 
 
 
