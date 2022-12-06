@@ -12,7 +12,7 @@
 
 
 
-<img src = "outros/img/telaInicial.jpeg" alt="**Image**" style="zoom:35%" >
+<img src = "outros/img/telaInicial.jpeg" alt="**Image**" style="zoom:25%" >
 
 
 
@@ -20,17 +20,17 @@
 
 Agora a alterando a posição da lista:
 
-<img src = "outros/img/alterandoPos.jpeg" alt="**Image**" style="zoom:35%">
+<img src = "outros/img/alterandoPos.jpeg" alt="**Image**" style="zoom:25%">
 
 
 
 O que ocorre ao clicar sobre um contato:
 
-<img src = "outros/img/clic.jpeg" alt="**Image**" style="zoom:35%">
+<img src = "outros/img/clic.jpeg" alt="**Image**" style="zoom:25%">
 
 E por fim, se desejar editar um contato:
 
-<img src = "outros/img/edit.jpeg" alt="**Image**" style="zoom:35%">
+<img src = "outros/img/edit.jpeg" alt="**Image**" style="zoom:25%">
 
 ​	Caso o usuário queira, tocando em ligar, é aberta a interface do telefone ou o registro é excluído quando toca-se em "excluir".
 
