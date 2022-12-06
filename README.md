@@ -26,11 +26,11 @@ Agora a alterando a posição da lista:
 
 O que ocorre ao clicar sobre um contato:
 
-<img src = "outros/img/clic.jpeg" alt="**Image**" style="zoom:25%">
+<img src = "outros/img/clic.jpeg" >
 
 E por fim, se desejar editar um contato:
 
-<img src = "outros/img/edit.jpeg" alt="**Image**" style="zoom:25%">
+<img src = "outros/img/edit.jpeg" >
 
 ​	Caso o usuário queira, tocando em ligar, é aberta a interface do telefone ou o registro é excluído quando toca-se em "excluir".
 
